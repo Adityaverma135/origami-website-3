@@ -1,0 +1,26 @@
+.header{display: flex;
+justify-content: space-between;
+color: white;
+background-color: black;}
+body{background-color: rgb(209, 209, 209);}
+.message{display: flex;
+justify-content: center;}
+.menu{display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;}
+.nav::after{
+    content: '\2630';
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+} 
+h1{margin-right: 700px;}
+.menu :hover img{
+    opacity: 0.33;
+    border: solid;
+    color: blue;
+    padding: 20px;
+}
+.nav:hover body{
+    opacity: 0.33;
+}
